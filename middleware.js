@@ -52,5 +52,7 @@ export const config = {
 
     "/((?!_next|.*\\..*).*)",
     "*",
+    
   ],
+  runtime: "edge",
 };
